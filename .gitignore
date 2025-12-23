@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
+*.log
+
+# Ignore image folders (training data)
+Ayrshire cattle/
+Brown Swiss cattle/
+Holstein Friesian cattle/
+Jersey cattle/
+Red Dane cattle/
+
+# Old models
+cattle_model.pkl
+cattle_cnn_model.pth
